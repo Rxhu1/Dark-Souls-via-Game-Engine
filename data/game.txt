@@ -1,0 +1,49 @@
+player:rahul
+map:spawn
+    room:spawn,Firelink Shrine,A comforting bonfire surrounded by a large bird perched above a stone wall and a man in chainmail armour.,false
+        exit:f1,west,A path west,skeleton,false
+        exit:f2,east,A path east,fortress,false
+        item:keytop,keytop,The top fragment of a broken key.,false
+    room:skeleton,Catacombs,A gravesite filled with undead skeletons and dark caves.,false
+        exit:c1,north,A path north,drake,false
+        exit:c2,east,A path east,spawn,false
+        item:staminasheild,staminasheild,A shield which provides faster stamina recovery when worn.,false
+    room:drake,Valley of Drakes,A sparce yet frightening valley filled with lightning induced flying drakes,false
+        exit:v1,south,A path south,skeleton,false
+        container:bluechest,bluechest,A dark blue chest with wings attached to its sides. I wonder what's inside...,false
+        equipment:redkey,redkey,A red key. Could be used in the woods...,true,open,reddoor,n2,You opened the door! A new entrance has opened creating a path west!
+    room:fortress,Sen's Fortress,A fortress filled with lots of swinging traps and rolling boulders.,false
+        exit:s1,west,A path west,spawn,false
+        exit:s2,north,A path north,easyarea,false
+        exit:s3,south,A path south,ghost,false
+        exit:s4,east,A path east,castle,true
+        container:greendoor,greendoor,A hard green door.,false
+    room:ghost,New Londo,An underground cave filled with ghosts and a large door which cannot budge.,false
+        exit:n1,north,A path north,fortress,false
+        exit:n2,west,A path west,woods,true
+        equipment:greenring,greenring,A green ring. Could be used near lava...,false,open,lavachest,keybot,You opened the chest! Something fell out...
+        container:reddoor,reddoor,A hard red door.,false
+    room:woods,Darkroot Garden,A dark woodland with an eerie echo and a howl of a wolf in the distance.,false
+        exit:d1,east,A path east,ghost,false
+        equipment:ruby,ruby,A red ruby,false,warp,ruby,0,You active the ruby! You can now warp to all visited rooms.
+    room:castle,Anor Londo,A large grand castle which seems to governed by a dragon.,false
+        exit:a1,west,A path west,fortress,false
+        equipment:emerald,emerald,A green emerald,false,add points,emerald,1,You activate the emerald! You gain +50 points!
+    room:easyarea,Undead Burg,A simple connection of stone pathways with undead archers and zombies.,false
+        exit:u1,south,A path south,fortress,false
+        exit:u2,north,A path north,poisonswamp,false
+        item:lighthat,lighthat,A hat which emanates a glowing light when worn.,false
+    room:poisonswamp,Blighttown,A large poison swamp infested with flying blood wasps and scorpions.,false
+        exit:b1,south,A path south,easyarea,false
+        exit:b2,east,A path east,lava,false
+        equipment:redring,redring,A red ring. Could be used near drakes...,false,open,bluechest,redkey,You opened the chest! Something fell out...
+    room:lava,Demon Ruins,There are pools of lava everywhere with magma providing walking space.,false
+        exit:l1,west,A path west,poisonswamp,false
+        item:keybot,keybot,The bottom fragment of a broken key,true
+        container:lavachest,lavachest,A melted wooden and steel chest with lava flowing around it. I wonder what's inside...,false
+    room:empty1,empty1,Room is empty,false
+    room:empty2,empty2,Room is empty,false
+    room:empty3,empty3,Room is empty,false
+    room:empty4,empty4,Room is empty,false
+    room:empty5,empty5,Room is empty,false
+    room:empty6,empty6,Room is empty,false
